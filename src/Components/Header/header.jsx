@@ -1,12 +1,13 @@
 import logofooter from "../../assets/logo-footer.png"
 const Header = ({amount}) => {
     return (
-        <div className="flex w-10/12 mx-auto justify-between items-center py-4">
-            <div className=" mt-1">
+        <div className=" sticky top-0 z-50 bg-[#131313]/25 backdrop-blur-sm shadow-lg border-b">
+            <div className="flex w-10/12 mx-auto justify-between items-center py-4 ">
+            <div className="">
                 <img className="w-20 h-20" src={logofooter} alt="logo-footer"/>
             </div>
             <div className="flex gap-4">
-                <div className="flex gap-4 text-gray-500 p-2">
+                <div className="flex gap-4  p-2">
                     <a href="">Home</a>
                     <a href="">Fixures</a>
                     <a href="">Team</a>
@@ -20,6 +21,7 @@ const Header = ({amount}) => {
 
             </div>
         </div>
+     </div>
     )
 }
 
