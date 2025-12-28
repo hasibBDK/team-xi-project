@@ -1,16 +1,25 @@
-# React + Vite
+#Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dream Team Builder
 
-Currently, two official plugins are available:
+##Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Dream Team Builder is a React-based web application where users can select their favorite players within a limited budget. The app allows users to view available players, select up to six players for their team, manage selections dynamically, and track their remaining coins in real time.
 
-## React Compiler
+###Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-React.js
 
-## Expanding the ESLint configuration
+-JavaScript (ES6)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-Tailwind CSS
+
+-JSON ()
+
+
+####Key Features:
+-Player Selection System – Users can select players with budget validation and a maximum selection limit of 6 players.
+
+-Dynamic View Toggle – Easily switch between available players and selected players with live count updates.
+
+-Real-Time State Management – Coin balance updates instantly when players are added or removed from the team.

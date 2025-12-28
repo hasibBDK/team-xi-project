@@ -4,8 +4,7 @@ import Header from './Components/Header/header'
 import './App.css'
 import Players from './Components/Players/players';
 import Footer from './Components/Footer/footer';
-import React from 'react';
-import { ToastContainer,toast } from 'react-toastify';
+
 function App() {
   const [amount, setAmount] = useState(0);
   const [selectedPlayer, setSelectedPlayer] = useState([]);
