@@ -4,7 +4,8 @@ import Header from './Components/Header/header'
 import './App.css'
 import Players from './Components/Players/players';
 import Footer from './Components/Footer/footer';
-
+import React from 'react';
+import { ToastContainer,toast } from 'react-toastify';
 function App() {
   const [amount, setAmount] = useState(0);
   const [selectedPlayer, setSelectedPlayer] = useState([]);
@@ -14,9 +15,11 @@ function App() {
   const handlePlayerSelect = (player) => {
     const exist = selectedPlayer.find(selected=>selected.id===player.id);
     if(selectedPlayer.length>6){
-      alert('6 Player Already Selected So you cant add mode player');
+      alert("You Can't Select More Than 6 Players");
+      return;
     }
     if(exist){
+      
       alert("Player Already Selected");
       return;
     }

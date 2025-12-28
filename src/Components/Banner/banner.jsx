@@ -7,7 +7,7 @@ const Banner = ({handleClaim}) => {
                 <img className="w-40 h-30 mt-4" src={bannermain} alt="banner-main" />
                 <h1 className="mt-5 text-3xl font-bold text-[#FFFFFF]"> Assemble Your Ultimate Dream 11 Cricket Team</h1>
                 <h4 className="mt-5 text-[#FFFFFF]/70 text-sm ">Beyond Boundaries Beyond Limits</h4>
-                <button onClick={handleClaim} className="mt-5 bg-[#E7FE29] p-1 rounded-lg my-4 px-2" >Claim Free Credit</button>
+                <button onClick={handleClaim} className="mt-5 bg-[#E7FE29] p-1 rounded-lg my-4 px-2" >Claim Free Coin</button>
             </div>
 
         </div>
